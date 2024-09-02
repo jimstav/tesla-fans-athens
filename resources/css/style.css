@@ -44,3 +44,17 @@ h2 {
   width: 100%;
   text-align: center;
 }
+
+#events img {
+  width: 40rem;
+  height: auto;
+}
+
+.organizers-box {
+  display: flex;
+}
+
+.organizer img {
+  width: 40rem;
+  height: auto;
+}

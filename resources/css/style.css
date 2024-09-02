@@ -7,9 +7,18 @@ body {
   font-family: "Athiti", sans-serif;
   font-weight: 500;
   font-style: normal;
-  background-color: #d7e1c0;
-  color: #005ce6;
+  background-color: #fff;
+  color: #01001a;
   font-size: 2rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #d7e1c0;
+  padding: 5rem;
 }
 
 h1,
@@ -18,7 +27,7 @@ h3 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #e52312;
+  color: #e60101;
 }
 
 h1 {
@@ -37,6 +46,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
 .hero-text {
@@ -45,16 +55,82 @@ h2 {
   text-align: center;
 }
 
+.events-box {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  flex-shrink: 5;
+  justify-content: center;
+}
+
+#events {
+  width: 100%;
+}
+
 #events img {
-  width: 40rem;
+  max-width: 70rem;
   height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1048px) {
+  #events img {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #events img {
+    max-width: 60rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #events img {
+    max-width: 30rem;
+  }
 }
 
 .organizers-box {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.organizer {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .organizer img {
-  width: 40rem;
+  max-width: 70rem;
   height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 1048px) {
+  .organizer img {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .organizer img {
+    max-width: 60rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .organizer img {
+    max-width: 30rem;
+  }
 }

@@ -4,6 +4,29 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Athiti", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #d7e1c0;
+  color: #005ce6;
+  font-size: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #e52312;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.1rem;
 }
 
 .hero {
@@ -17,7 +40,7 @@ body {
 }
 
 .hero-text {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(215, 225, 192, 0.75);
   width: 100%;
   text-align: center;
 }
